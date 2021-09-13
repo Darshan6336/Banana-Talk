@@ -18,8 +18,9 @@ function clickHandler() {
     fetch(transleationURL(inputText))
         .then(response => response.json())
         .then(json => {
-                var transText = json.contents.translated;
-                out.innerText = transText;})
+            var transText = json.contents.translated;
+            out.innerText = transText;
+        })
         .catch(errorH)
 };
 pusht.addEventListener("click", clickHandler)
