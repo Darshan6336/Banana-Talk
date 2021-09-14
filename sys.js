@@ -9,7 +9,7 @@ function transleationURL(input) {
 
 function errorH(error) {
     console.log("something wrong", error)
-    alert("something wrong with sever")
+    alert("something wrong with server")
 }
 
 function clickHandler() {
